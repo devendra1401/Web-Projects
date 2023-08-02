@@ -1,32 +1,14 @@
+/**
+ * 
+ */
+
 function clearNameErrMsg(){
     document.getElementById('stateUNameErr').innerHTML="";
 }
 
 function clearPassErrMsg(){
-    document.getElementById('statePassErr'),innerHTML="";
+    document.getElementById('statePassErr').innerHTML="";
 }
-
-// function validateName() {
-//     const password = document.getElementById('stateUName').value;
-
-//     const lower = /[a-z]/;
-//     const upper = /[A-Z ]/;
-//     const number = /[0-9]/;
-//     const special= /[!@#$%^&*()_+[\]{};':"\\|,.<>?]/;
-
-//     const containsLower = lower.test(password);
-//     const containsUpper = upper.test(password);
-//     const containsNumber = number.test(password);
-//     const containsSpecial = special.test(password);
-
-//     if ((containsLower || containsUpper )&& !(containsNumber) && !(containsSpecial)) {
-//       return true;
-//     } 
-//     else {
-//       alert("Enter valid name");
-//       return false;
-//     }
-// }
 
 function validate() {
     var x=document.getElementById('stateUName').value;
@@ -43,9 +25,23 @@ function validate() {
     
     if(y =="") {
         //alert('Password cannot be blank');	return false
-        document.getElementById("statePassErr").innerHTML="Password cannot be blank";
+        document.getElementById("statePassErr").innerHTML="*Password cannot be blank";
         return false;
     }			
     return true;
 }
+
+function clearEmailErrMsg(){
+	document.getElementById('stateUEmailErr').innerHTML="";
+}
+
+function validateEmail() {
+  const res = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+  if(res.test(document.getElementById('stateUEmail').value.toLowerCase())==false){
+	  
+	document.getElementById("stateUEmailErr").innerHTML="Email is not valid";
+  }
+  
+  return res.test(document.getElementById('stateUEmail').value.toLowerCase());
+ }
 

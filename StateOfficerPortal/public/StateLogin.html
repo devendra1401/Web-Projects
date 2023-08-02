@@ -10,12 +10,14 @@
 	<div class="login_form">
 		<h1>State Officer Login</h1>
 		<form action="StatePortal.html">
-			<input type="text" placeholder="Username" class="input_box"><span id="offUNameErr"></span>
-			<input type="text" placeholder="Password" class="input_box"><span id="offUNameErr"></span>
-			<button type="submit" class="login_btn">Login</button>
+			<input type="text" placeholder="Username" class="input_box" onkeyup="clearNameErrMsg()" id="stateUName"><span id="stateUNameErr"></span>
+			<input type="password" placeholder="Password" class="input_box" onkeyup="clearPassErrMsg()" id="statePass"><span id="statePassErr"></span>
+			<button type="submit" class="login_btn" onclick="return validate()">Login</button>
 			<p>Forgot Password? click <a href="StateForgotPassword.html">here</a></p>
 		</form>
 	</div>
+	
+	<script src="StateLogin.js"></script>
 </body>
 
 </html
