@@ -14,7 +14,6 @@ insert into institute values ('23036','KRISHNA SCHOOL OF DENTAL SCIENCES, KARAD'
 insert into institute values ('34675','RBK School, Thane','Priti Chandrakar','Urban','rbk@123');
 insert into institute values ('19896','Delhi Public School, Nerul','Pradeep Singh','Urban','dps@123');
 
-
 Queries for SNO : 
 insert into sno values ('mhsno','mh@123');
 insert into sno values ('rjsno','rj@123');
@@ -22,15 +21,34 @@ insert into sno values ('cgsno','cg@123');
 
 Queries for bank_details :
 insert into bank_details values ('53800100005645','Rohit Verma','BARB0MHARO','Bank of Baroda',506);
-insert into bank_details values ('53800100007862','Jay Sahu','BARB0MHARO','Bank of Baroda',1852);
+insert into bank_details values ('53800100007862','Jay Kumar','BARB0MHARO','Bank of Baroda',1852);
 insert into bank_details values ('50100615786512','Shubham Jain','HDFC0000159','HDFC Bank',1033);
 insert into bank_details values ('36720615780987','Ajay Gupta','HDFC0000160','HDFC Bank',1679);
+insert into bank_details values ('23527823893423','Kiran Sharma','KKBK0000723','Kotak Mahindra Bank',892);
+insert into bank_details values ('89722341562372','Ayush Dewangan','KKBK0000723','Kotak Mahindra Bank',1123);
+insert into bank_details values ('23167287256','Bharat Sen','SBIN0001132','State Bank of India',2341);
+insert into bank_details values ('73842367265','Anushka Chouhan','SBIN0001132','State Bank of India',1265);
+insert into bank_details values ('23715621987126','Anurag Vaishnav','UCBA0000041','Uco Bank',1066);
+insert into bank_details values ('78230929328909','Yuvraj Sahu','UCBA0000041','Uco Bank',678);
+insert into bank_details values ('34892347893209','Bhawna Patil','HDFC0001231','HDFC Bank',786);
+insert into bank_details values ('34986743209378','Nikita Bhati','BARB0RJAIRO','Bank of Baroda',1303);
+
+
 
 Queries for student : 
 insert into student values ('456289762312','Ajay Gupta','2001-09-23','Male','13844','36720615780987','ajay@123');
-insert into student values ('243156748976','Rohit Verma','2000-07-18','Male','13844','36720615780987','rohit@123');
+insert into student values ('243156748976','Rohit Verma','2000-07-18','Male','13844','53800100005645','rohit@123');
 insert into student values ('142376521987','Shubham Jain','2000-05-11','Male','23036','50100615786512','shubham@123');
-insert into student values ('345267521241','Jay Sahu','2002-03-09','Male','34675','53800100007862','jay@123');
+insert into student values ('345267521241','Jay Kumar','2002-03-09','Male','34675','53800100007862','jay@123');
+insert into student values ('897635263526','Kiran Sharma','2002-09-27','Female','23036','23527823893423','kiran@123');
+insert into student values ('671525451672','Bharat Sen','2000-01-25','Male','34675','23167287256','bharat@123');
+insert into student values ('293809326723','Anurag Vaishnav','2002-09-27','Male','23036','23715621987126','anurag@123');
+insert into student values ('923948739948','Anushka Chouhan','2002-08-14','Female','13844','73842367265','anushka@123');
+insert into student values ('892737826524','Yuvraj Sahu','2001-03-24','Male','19896','78230929328909','yuvraj@123');
+insert into student values ('343799834403','Ayush Dewangan','2001-11-08','Male','19896','89722341562372','ayush@123');
+insert into student values ('343799834403','Bhawna Patil','2001-07-24',Female','19896','34892347893209','bhawna@123');
+insert into student values ('343799834403','Nikita Bhai','2001-07-24',Female','134674','34986743209378','nikita@123');
+
 
 
 
