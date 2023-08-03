@@ -10,3 +10,9 @@ insert into sno values ('mhsno','mh@123');
 insert into sno values ('rjsno','rj@123');
 insert into sno values ('cgsno','cg@123');
 
+Queries for bank_details :
+insert into bank_details values ('53800100005645','Rohit Verma','BARB0MHARO','Bank of Baroda',506);
+insert into bank_details values ('53800100007862','Jay Sahu','BARB0MHARO','Bank of Baroda',1852);
+insert into bank_details values ('50100615786512','Shubham Jain','HDFC0000159','HDFC Bank',1033);
+insert into bank_details values ('36720615780987','Ajay Gupta','HDFC0000160','HDFC Bank',1679);
+
