@@ -1,0 +1,12 @@
+Queries for institute : 
+insert into institute values ('13844','ARMED FORCE MEDICAL COLLEGE, PUNE','AN Ravani','Urban','armc@123');
+insert into institute values ('23036','KRISHNA SCHOOL OF DENTAL SCIENCES, KARAD','KN Nayak','Rural','ksods@123');
+insert into institute values ('34675','RBK School, Thane','Priti Chandrakar','Urban','rbk@123');
+insert into institute values ('19896','Delhi Public School, Nerul','Pradeep Singh','Urban','dps@123');
+
+
+Queries for SNO : 
+insert into sno values ('mhsno','mh@123');
+insert into sno values ('rjsno','rj@123');
+insert into sno values ('cgsno','cg@123');
+
