@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>State Nodal Officer Login Page</title>
+	<link rel="stylesheet" href="Login.css">
+    <script src="LoginValidator.js"></script>
+</head>
+
+<body>
+	<div class="login_form">
+		<h1>State Officer Login</h1>
+		<form action="StatePortal.html">
+			<input type="text" placeholder="Username" onkeyup="clearNameErrMsg()" class="input_box" id="stateUName"><span id="stateUNameErr"></span>
+			<input type="text" placeholder="Password" onkeyup="clearPaaErrMsg()" class="input_box" id="statePass"><span id="statePassErr"></span>
+			<button type="submit" class="login_btn" onclick="return validate()">Login</button>
+			<p>Forgot Password? click <a href="StateForgotPassword.html">here</a></p>
+		</form>
+	</div>
+</body>
+
+</html

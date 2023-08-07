@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+           font-family: Arial, sans-serif;
+           line-height: 1.6;
+           margin: 20px;
+       }
+
+       h1 {
+           text-align: center;
+       }
+       label {
+           display: block;
+           font-weight: bold;
+           margin-top: 10px;
+           align-items: center;
+       }
+       input[type="text"],
+       input[type="number"],
+       input[type="email"],
+       input[type="date"],
+       input[type="password"],
+       select,
+       textarea {
+           width: 50%;
+           padding: 10px;
+           margin-bottom: 10px;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box;
+       }
+       input[type="submit"],input[type="reset"] {
+           background-color: #4CAF50;
+           color: white;
+           padding: 10px 20px;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+       }
+
+       input[type="submit"],input[type="reset"]:hover {
+           background-color: #45a049;
+       }
+   </style>
+</head>
+<body>
+    <h2>Institute Registration Form </h2>
+    <form action="instituteLogin.html">
+    <div class="container">
+    <fieldset>
+    <legend>Basic Details:</legend>
+    <label for="name"><b>INSTITUTE NAME : </b></label>
+    <input type="text" placeholder="Enter name" name="name" id="name" required><br><br>
+    
+    <label for="Institute Code"><b>INSTITUTE CODE : </b></label>
+    <input type="text" placeholder="Enter Institute Code" name="Institute Code" id="Institute Code" required><br><br>
+    
+ 
+   <label for="pname"><b>Principle Name: </b></label>
+    <input type="text" name="pname"  required><br><br>
+
+    <label for="location"><b>LOCATION : </b></label>
+    <select name="location" id="location">
+     <option value="Rural">Rural</option>
+     <option value="Urban">Urban</option>
+   </select><br><br>
+
+    
+    <label for="psw"><b>Password: </b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+
+    <label for="psw-repeat"><b>Repeat Password: </b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><br>
+    </fieldset>
+
+    <fieldset> 
+    <legend>Contact Details: </legend>
+    <label for="Address"><b>ADDRESS : </b></label>
+    <input type="text"  placeholder="Address Line" name="address" required><br><br>
+
+    <label for="Pin"><b>PIN CODE : </b></label>
+    <input type="text"  placeholder="Enter Pin code" name="pin" required><br><br>
+
+    <label for="mnum"><b>MOBILE NUMBER : </b></label>
+    <input type="text"  name="mnum"  required><br><br>
+    
+    <label for="tp"><b>EMAIL : </b></label>
+    <input type="text" name="tp"  required><br><br>
+
+    </fieldset>
+  </div>
+
+  <div class="form-buttons">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+</div>
+
+</form>
+</body>
+</html>

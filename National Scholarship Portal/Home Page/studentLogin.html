@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+    <script src="LoginValidator.js"></script>
+</head>
+<body>
+    <div class="login_form">
+		<h1>Student Login</h1>
+		<form action="studentPortal.html">
+			<input type="email" placeholder="Enter your email ID" onkeyup="clearNameErrMsg()" class="input_box" id="stateUName"><span id="stateUNameErr"></span>
+			<input type="text" placeholder="Enter your Password" onkeyup="clearPaaErrMsg()" class="input_box" id="statePass"><span id="statePassErr"></span>
+			<button type="submit" class="login_btn" onclick="return validate()">Login</button>
+			<p>Forgot Password? click <a href="studentForgotPassword.html">here</a></p>
+            <p>Not registered yet ? Register <a href="studentRegistration.html">Here</a></p>
+		</form>
+	</div>
+</body>
+</html>

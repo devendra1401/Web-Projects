@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute Login</title>
+    <link rel="stylesheet" href="Login.css">
+	<script src="LoginValidator.js"></script>
+</head>
+<body>
+    <div class="login_form">
+		<h1>Institute Login</h1>
+		<form action="institutePortal.html">
+			<input type="number" placeholder="Enter the Institute Code" onkeyup="clearNameErrMsg()" class="input_box" id="stateUName"><span id="stateUNameErr"></span>
+			<input type="text" placeholder="Enters Password" onkeyup="clearPaaErrMsg()" class="input_box" id="statePass"><span id="statePassErr"></span>
+			<button type="submit" class="login_btn" onclick="return validate()">Login</button>
+			<p>Forgot Password? click <a href="instituteForgotPassword.html">here</a></p>
+            <p>Not registered yet ? Register <a href="instituteRegistration.html">Here</a></p>
+		</form>
+	</div>
+</body>
+</html>

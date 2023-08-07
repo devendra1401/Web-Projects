@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+            align-items: center;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"],input[type="reset"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"],input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>NEW STUDENT REGISTRATION FORM</h1>
+		<hr>
+		<h2>Register Here</h2>
+		
+		<form action="StudentLogin.html">
+					
+					<label>NAME :</label> 
+					<input  type=text     id="name" required><br>
+
+                    <label>AADHAR NUMBER :</label> 
+					<input  type=text     id="aadhar" required><br>
+
+					<label>DOB :</label>
+				 	<input  type=date     id="dob" required><br>
+
+				 	<label for="state">Gender : </label>
+					<select name="gender" placeholder="GENDER :" id="state" required>
+					  <option value="Male">Male</option>
+					  <option value="Female">Female</option>
+					</select><br>
+					  
+				 	<label>MOBILE NUMBER :</label> 
+					<input  type=text     id="mobile" required><br>
+				
+					<label>EMAIL ID :</label> 
+					<input  type=text     id="email"><br>
+					
+					<label>INSTITUTE CODE :</label> 
+					<input  type=text     id="institutecode" required><br>
+					
+					
+					
+					<label>BANK IFSC CODE :</label> 
+					<input  type=text     id="bankifsc" required><br>
+					
+					<label>BANK ACCOUNT NUMBER :</label> 
+					<input  type=text     id="bankaccount" required><br>
+					
+					<label>BANK NAME :</label> 
+					<input  type=text     id="bankname" required><br>
+					
+					<label>SET YOUR PASSWORD :</label> 
+					<input  type=text     id="password" required><br>
+					
+					<label>CONFIRM PASSWORD :</label> 
+					<input  type=text     id="confirmpassword" required><br>
+				
+				<input type="checkbox" id="check1" name="check" value="true" required>
+				 All the above information furnished by me is true to the best of my knowledge. <br>
+				
+				<input  type="submit" value="Register">
+				<input  type="reset" value="Reset"> <br>
+                Already Registered? Click <a href="StudentLogin.html">Here</a><br>	
+		</form>
+</body>
+</html>
